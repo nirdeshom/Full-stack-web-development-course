@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+.one p::first-line{
+    color: red;
+    font-size: large;
+}
+.one p::first-letter{
+    font-size: 50px;
+    color: blue;
+    font-weight: 900;
+}
+.one p::selection{
+    color: rgb(254, 11, 11);
+    background-color: rgb(189, 255, 83);
+}
+input::placeholder{
+    color: red;
+    /* font-size: 25px; */
+}
+
+h3::after{
+    content: " *";
+    color: red;
+}
+h3::before{
+    content: "\260E  ";
+    /* color: red; */
+}
+
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
